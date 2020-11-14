@@ -463,5 +463,15 @@ header .header__bars i {
   .content__intro div p {
     display: none;
   }
+  .content__menu .content__food div {
+    -ms-flex-preferred-size: 50% !important;
+        flex-basis: 50% !important;
+  }
+  .content__menu .content__food div p {
+    display: none;
+  }
+  .content__menu .content__food div span.price {
+    font-size: 1rem !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

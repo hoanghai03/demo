@@ -446,4 +446,18 @@ header {
             }
         }
     }
+    .content__menu {
+        .content__food {
+            div {
+                flex-basis: 50% !important;
+                p {
+                    display: none;
+                }
+                span.price {
+                    font-size: 1rem !important;
+                }
+            }
+
+        }
+    }
 }
