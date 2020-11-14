@@ -8,3 +8,4 @@ window.onscroll = function() {
         header.classList.remove('isFixed');
     }
 }
+alert("Hoang Hai test");
