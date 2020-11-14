@@ -8,4 +8,11 @@ window.onscroll = function() {
         header.classList.remove('isFixed');
     }
 }
-alert("Hoang Hai test");
+
+/* --------- open cart --------- */
+
+var cart = document.getElementById('cart');
+
+cart.onclick = function() {
+    window.location.href = "cart.html";
+}
