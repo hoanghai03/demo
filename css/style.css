@@ -149,6 +149,92 @@ header .header__bars i {
   font-size: 3rem;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 1rem;
+  background-color: #121618;
+}
+
+footer .footer__phone {
+  margin-bottom: 30px;
+}
+
+footer .footer__phone div {
+  text-align: center;
+}
+
+footer .footer__phone div h3,
+footer .footer__phone div p {
+  font-family: "Open Sans";
+  letter-spacing: 2px;
+}
+
+footer .footer__phone div h3 {
+  color: #dce4e8;
+  font-weight: 500;
+}
+
+footer .footer__phone div p {
+  color: #9c9c9c;
+}
+
+footer .footer__phone div img {
+  width: 28px;
+  height: 41px;
+}
+
+footer .footer__mid .footer__logo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+footer .footer__mid .footer__logo img {
+  max-width: 30%;
+  max-height: 30%;
+}
+
+footer .footer__mid .footer__menu li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+footer .footer__mid .footer__menu li a {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 13px;
+}
+
+footer .footer__mid .footer__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+footer .footer__mid .footer__icon .footer__link {
+  color: white;
+  padding: 0 10px;
+}
+
+footer .footer__mid .footer__text {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
 @media screen and (max-width: 960px) {
   .header__phone div p,
   .header__cart div p {
@@ -196,6 +282,16 @@ header .header__bars i {
     top: 0;
     left: 0;
     right: 0;
+  }
+  footer .footer__mid .footer__menu {
+    text-align: center;
+  }
+  footer .footer__mid .footer__menu li {
+    display: block;
+    margin-top: 10px;
+  }
+  footer .footer__mid .footer__menu li a {
+    font-size: 8px;
   }
 }
 
@@ -272,6 +368,10 @@ header .header__bars i {
 @media screen and (max-width: 320px) {
   #banner .fas {
     font-size: 1.5rem !important;
+  }
+  .footer__link {
+    color: red;
+    padding: 0 10px;
   }
 }
 
