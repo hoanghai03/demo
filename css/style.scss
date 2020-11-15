@@ -127,6 +127,76 @@ header {
         }
     }
 }
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #121618;
+    .footer__phone{
+        margin-bottom: 30px;
+        div {
+            text-align: center;
+            h3,
+            p {
+                font-family: "Open Sans";
+                letter-spacing: 2px;
+            }
+            h3 {
+                color: #dce4e8;
+                font-weight: 500;
+            }
+            p {
+                color: #9c9c9c;
+            }
+            img {
+                width: 28px;
+                height: 41px;
+            }
+        }
+    
+    }
+    .footer__mid {
+        .footer__logo {
+            text-align: center;
+            margin-bottom: 3rem;
+            img {
+                max-width: 30%;
+                max-height: 30%;
+            }
+        }
+        .footer__menu {
+            li {
+                display: inline-block;
+                margin: 0 1rem;
+                a {
+                    text-transform: uppercase;
+                    color: white;
+                    letter-spacing: 3px;
+                    font-weight: 100;
+                    font-style: normal;
+                    font-size: 13px;
+                }
+            }
+        }
+        .footer__icon{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            .footer__link{
+                color: white;
+                padding: 0 10px;
+            }
+        }
+        .footer__text{
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+        }
+      
+    }
+
+}
 @media screen and (max-width: 960px) {
     .header__phone,
     .header__cart {
@@ -184,6 +254,22 @@ header {
             left: 0;
             right: 0;
         }
+    }
+    footer{
+        .footer__mid{
+            .footer__menu {
+                text-align: center;
+
+                li {
+                    display: block;
+                    margin-top: 10px;
+                    a{
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+       
     }
 }
 /* --------- 
@@ -249,12 +335,17 @@ header {
             }
         }
     }
+   
 }
 @media screen and (max-width: 320px) {
     #banner {
         .fas {
             font-size: 1.5rem !important;
         }
+    }
+    .footer__link{
+        color: red;
+        padding: 0 10px;
     }
 }
 /* --------- 
@@ -356,6 +447,7 @@ header {
     }
 }
 @media screen and (max-width: 960px) {
+    
     .content {
         .content__intro {
             padding: 5rem 5rem !important;
