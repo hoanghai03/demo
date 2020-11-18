@@ -12,7 +12,13 @@ li {
 a {
     text-decoration: none;
 }
-
+ul li a:hover {
+    color: #ffc851;
+    
+}
+/* *, *:before, *:after {
+    box-sizing: inherit;
+} */
 header {
     height: 252px;
     background-color: #121618;
@@ -139,6 +145,10 @@ header .header_right .header_right-center .header_right-center1 .header_right-li
     margin-top: 4px;
     color: #dce4e8;
 }
+/* .header_right-link a:hover{
+    color: #ffc851;
+    background-color: khaki;
+} */
 header .header_right .header_right-center .header_right-right {
     float: left;
     width: 64px;
@@ -176,6 +186,7 @@ header .header_right .header_right-center .header_right-right .number {
     width: 100%;
     background: #FFC851E6;
     text-align: center;
+    background-image: url("../imgs/intro_bg.png");
 }
 .content_cart h1 {
     height: 240px;
@@ -279,6 +290,7 @@ header .header_right .header_right-center .header_right-right .number {
     border: 1.5px 0px 1.5px 1.5px;
     font: 13px "Open Sans";
     letter-spacing: 3px;
+    color: white;
 }
 .vincent_coupon button {
     float: left;
@@ -342,6 +354,135 @@ button:hover{
     background-color: #1d2326;
     color: white;
 }
-.content .container .container_right {
+.container_right {
+    float: left;
+    width: 364.33px;
+    padding: 75px 0px 0px 10px;
+    color: #DCE4E8;
+    /* font-family: 16px "Open sans"; */
+    margin: 0px 0px 0px 23.25px;
+}
+.container_right-input {
+    position: relative;
+    vertical-align: middle;
+}
+.container_right-input input {
+    background: transparent;
+    border: 2px solid #252c30;
+    width: 100%;
+    line-height: 26px;
+    text-indent: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 3px;
+    color: #dce4e8;
+    position: absolute;
+}
+.container_right-input .icon {
+    position: absolute;
+    z-index: 1;
+    padding-top: 7px;
+    right: 20px;
+    opacity: 0.5;
+}
+
+.container_right .about {
+    width: 100%;
+    background: #1d2326;
+    margin-top: 60px;
+    vertical-align: middle;
+    padding: 40px;
+}
+.container_right1 > div {
+    width: 100% ;
+    margin-top: 30px;
+}
+.container_right1 img{
+    width: 80px;
+    height: 80px;
     float: left;
 }
+/* .container_right1 div p {
+    margin-left: 100px;
+ 
+} */
+/* .container_right1 div a  */
+.container_right1 .img_content{
+    margin-left: 90px;
+}
+.container_right1 div span {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #DCE4E8;
+    font-family: "PT Sans Narrow";
+}
+.container_right1 div span:hover{
+    color: #ffc851;
+}
+.container_right2 ul {
+    margin-top: 20px;
+}
+.container_right2 ul li a {
+
+    display: block;
+    padding: 7px 20px 7px 0;
+    transition: padding 0.3s;
+    border-bottom: 1px solid #293033;
+    color: #DCE4E8;
+}
+.container_right2 ul li a:hover{
+    color: #ffc851;
+}
+
+/* .container_right3 {
+    position: relative;
+} */
+/* .container_right3 ul {
+    float: left;
+} */
+.container_right3 {
+    height: 320px;
+}
+.container_right3 ul {
+    margin-top: 20px;
+}
+.container_right3 ul li {
+    /* position: absolute; */
+    /* position: relative; */
+    float: left;
+    border: 2px solid gray ;
+    margin: 0px 6px 10px 0px;
+    padding: 4px 9px 6px 14px;
+    
+}
+.container_right3 ul li a{
+    
+
+    color: #dce4e8;
+    font: 14px "PT Sans Narrow"; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+.container_right3 ul li:hover{
+    
+    background-color: #ffc851;
+    border-color: #ffc851;
+}
+.container_right4 {
+    height: 320px;
+}
+.container_right4 ul {
+    margin-top: 20px;
+}
+.container_right4 img{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.container_right4 img:hover{
+    opacity: 0.5;
+}
+
